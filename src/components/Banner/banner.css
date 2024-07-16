@@ -51,3 +51,9 @@
     #111
   );
 }
+@media screen and (max-width: 480px) {
+  .banner__title {
+    box-sizing: border-box;
+    font-size: 0.8em;
+  }
+}

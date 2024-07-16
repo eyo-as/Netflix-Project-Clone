@@ -52,8 +52,16 @@
   );
 }
 @media screen and (max-width: 480px) {
-  .banner__title {
+  .banner__description {
+    font-size: 1.2rem;
+    width: 300px;
     box-sizing: border-box;
-    font-size: 0.8em;
+  }
+  .banner__title {
+    font-size: 1.5rem;
+  }
+  .banner__contents {
+    margin-left: 8px;
+    width: 300px;
   }
 }

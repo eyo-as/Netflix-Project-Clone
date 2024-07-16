@@ -41,3 +41,8 @@
   font-size: 12px;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 330px) {
+  .footer_outer_container {
+    display: block;
+  }
+}

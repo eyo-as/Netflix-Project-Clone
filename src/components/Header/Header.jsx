@@ -13,7 +13,7 @@ const Header = () => {
       <div className="header_outer_container">
         <div className="header_container">
           <div className="header_left">
-            <ul>
+            <ul className="header_left_list">
               <li>
                 <img src={NetflixLogo} alt="Netflix Logo" width="100" />
               </li>

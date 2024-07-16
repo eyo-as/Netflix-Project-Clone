@@ -38,6 +38,7 @@
   .header_left ul li:not(:first-child) {
     display: none;
   }
+
   .banner_description {
     box-sizing: border-box;
     font-size: 0.8em;
@@ -45,5 +46,25 @@
   }
   .header_right {
     margin-right: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header_left ul {
+    margin-left: 20px;
+  }
+  .header_left ul li:not(:first-child) {
+    display: none;
+  }
+  .header_right {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header_left ul li {
+    font-size: 0.9em;
+  }
+  .header_left ul {
+    gap: 5px;
   }
 }

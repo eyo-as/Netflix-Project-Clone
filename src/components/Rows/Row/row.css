@@ -27,3 +27,15 @@
   margin-left: 20px;
   color: white;
 }
+
+@media screen and (max-width: 480px) {
+  .row {
+    margin-left: 8px;
+  }
+  .row_title {
+    font-size: 1.5em;
+  }
+  .row__posters {
+    margin-left: -18px;
+  }
+}
